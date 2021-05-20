@@ -1,0 +1,11 @@
+- @vue/cli 实现的交互式的项目脚手架。
+    - CLI (@vue/cli) 是一个全局安装的 npm 包，提供了终端里的 vue 命令。它可以通过 vue create 快速搭建一个新项目，或者直接通过 vue serve 构建新想法的原型。你也可以通过 vue ui 通过一套图形化界面管理你的所有项目。
+- @vue/cli + @vue/cli-service-global 实现的零配置原型开发。
+    - CLI 服务是构建于 webpack 和 webpack-dev-server 之上的
+- @vue/cli-service 一个运行时依赖
+- public/index.html 文件是一个会被 html-webpack-plugin 处理的模板。在构建过程中，资源链接会被自动注入。
+- 应用模式是默认的模式。在这个模式中：
+    - index.html 会带有注入的资源和 resource hint
+    - 第三方库会被分到一个独立包以便更好的缓存
+    - 小于 4kb 的静态资源会被内联在 JavaScript 中
+    - public 中的静态资源会被复制到输出目录中
