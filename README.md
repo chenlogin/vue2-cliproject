@@ -1,3 +1,7 @@
+<table>
+<tr><td bgcolor=red>Vue CLI 现已处于维护模式!</td></tr>
+<tr><td bgcolor=blue>当前vue版本2.6.11</td></tr>
+</table>
 # my-project
 
 ## Project setup
